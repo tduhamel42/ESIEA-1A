@@ -7,7 +7,7 @@ __Seulement si t'es à l'aise avec les trucs du cours__
 ## But du jeu
 
 Comme son nom l'indique c'est un jeu au format text. En gros, on est un bonhomme qui se déplace dans un monde
-et qui se attaquer.
+et qui se fait attaquer.
 Donc pour se déplacer l'utilisateur entre les commandes suivantes:
 ```
 north
@@ -54,7 +54,13 @@ Si t'as pas compris les chaînes de caractères tu peux toujours utiliser des __
 char c;
 scanf("%c", &c);
 ```
-Pour les comparer tu sais comment faire.
+Pour les comparer tu sais comment faire. Du coup pour se déplacer c'est:
+```c
+n
+s
+e
+w
+```
 
 ### Générer un nombre random
 Pour savoir quand notre joueur est attaqué.
